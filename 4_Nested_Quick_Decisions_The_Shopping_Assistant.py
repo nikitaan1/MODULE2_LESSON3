@@ -22,5 +22,5 @@ weather = input("Enter the weather: sunny, rainy, or cold: ")
 
 clothing = "sunglasses" if weather == "sunny" else "umbrella" if weather == "rainy" else "sweater"
 print(clothing)
-additional_itams = "hat" if weather == "sunny" else "boots"
-accessory = "sunscreen" if clothing == "sunglasses" if clothing else "beenie" if weather == "rainy" else "jacket"
+accessory = "sunscreen" if clothing == "sunglasses" else "beenie" if weather == "rainy" else "jacket"
+print(accessory)
